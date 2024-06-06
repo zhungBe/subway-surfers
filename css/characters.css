@@ -1,0 +1,102 @@
+/* ----------------------------------------
+Jake Bio
+---------------------------------------- */
+.jake{
+    background-image: url(/assets/sanfrancisco.jpg);
+    padding: 20px;
+}
+.jake-img img{
+    height: 800px;
+    align-items: center;
+    
+}
+.jake-body{
+    padding-top: 300px;
+    text-align: center;
+    color: #fff;
+
+}
+.jake-body p{
+    text-align: start;
+    padding-left: 200px;
+}
+/* -------------------------------------------
+Tricky 
+------------------------------------------ */
+.tricky{
+    background-image: url(/assets/tokyo.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jake-img img{
+    height: 800px;
+    align-items: center;
+    
+}
+.jake-body{
+    padding-top: 300px;
+    text-align: center;
+    color: #fff;
+
+}
+.jake-body p{
+    text-align: start;
+    padding-left: 100px;
+}
+
+
+/* ----------------------------------------------- */
+/* Fresh */
+/* ------------------------------------------------------ */
+
+
+.fresh{
+    background-image: url(/assets/sanfrancisco_2.jpg);
+    padding: 20px;
+}
+.fresh-img img{
+    height: 800px;
+    align-items: center;
+    
+}
+.fresh-body{
+    padding-top: 300px;
+    text-align: center;
+    color: #fff;
+
+}
+.fresh-body p{
+    text-align: start;
+    padding-left: 200px;
+}
+
+/* 
+------------------------------------------------------------------
+Yutani
+------------------------------------------------------------------
+*/
+/* -------------------------------------------
+Tricky 
+------------------------------------------ */
+.yutani{
+    background-image: url(/assets/miami.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yutani-img img{
+    height: 800px;
+    align-items: center;
+    
+}
+.yutani-body{
+    padding-top: 300px;
+    text-align: center;
+    color: #fff;
+
+}
+.yutani-body p{
+    text-align: start;
+    padding-left: 100px;
+}

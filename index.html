@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/javascript/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="shortcut icon" type="image/icon" href="images/logo.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Surfers</title>
+</head>
+<body>
+    <!-- TopBar starts -->
+    <nav class="topbar">
+        <div class="row">
+            <div class="col-md-4 text-center"><span class=""><img src="./assets/message.png" alt=""> Email: arthurphil-h.school@det.nsw.edu.au</span> </div>
+            <div class="col-md-4 text-center"> <img src="./assets/phone.png" alt="">+61 288 558 100</div>
+            <div class="col-md-4 text-center"><img src="./assets/location-pin.png" alt="">Macquarie St, Parramatta, Australia</div>
+        </div>
+   </nav>
+   <!-- Top bar ends -->
+
+   <!-- Menu start -->
+
+   <section class="mainmenu">
+   
+    <nav class="navbar">
+        <div class="logo">
+          <img src="/assets/logo.png" alt="Logo" />
+        </div>
+        <ul class="nav-menu">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="/characters.html">Characters</a></li>
+          <li><a href="howtoplay.html">What it takes</a></li>
+        </ul>
+      </nav>
+    </section>
+    
+<!-- Menu ends -->
+
+<!-- Landing section -->
+     <section id="home" class="welcome-hero">
+        <div class="container">
+             
+      </section>
+<!-- Landing section Ends -->
+
+<!-- About Section -->
+<div class="about">
+    <div class="row">
+        <div class="col-md-6 abouttxt">
+            <div class="aboutbody">
+                <h5>The Game of Masters</h5>
+                <h3>The game of  endless runner</h3>
+                <p>
+                    Think of it as a high-speed chase through a tricked-out subway system. 
+                    You can race as different characters, like Jake the original surfer dude, 
+                    or even a techie genius named Yutani.  Plus, you can grab hoverboards, 
+                    jetpacks, and other cool power-ups to outsmart the inspector and his canine 
+                    companion.
+                </p>
+
+            </div>
+
+        </div>
+        <div class="col-md-6 aboutimg">
+
+        </div>
+    </div>
+</div>
+<!-- About section ends -->
+
+<!-- Start of Audio section -->
+<div class="audio-section">
+    <div class="container audio-holder">
+        <h3>Remember our theme Audio?</h3>
+        <p>
+            This is probably the most prominent sound effect. The whooshing sound
+             of a train approaching creates a sense of urgency and danger, making 
+             you focus on dodging and jumping.
+        </p>
+        <div class="audio">
+            <audio id="subway-audio">
+                <source src="/assets/subway-theme.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <!-- Play and Pause buttons -->
+            <div id="audio-controls">
+                <button class="btn  btn-success" onclick="playAudio()"><i class="fas fa-play"></i> Play</button>
+                <button onclick="toggleMute()" class="btn btn-warning">
+                    <i class="fas fa-volume-mute" id="mute-icon"></i> Mute
+                </button>
+                <button onclick="pauseAudio()" class="btn btn-danger"><i class="fas fa-pause"></i>  Pause</button>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- End of audio section -->
+
+
+<!-- Our History -->
+    <div class="history">
+        <div class="row">
+            <div class="history-image col-md-6" id="history-content">
+                
+            </div>
+            <div class="history-content col-md-6">
+                <h3>Subway Surfers Heritage</h3>
+                <p>
+                    The story of Subway Surfers begins with three friends—Jake, Tricky,
+                     and Fresh—who share a love for street art and adventure. Set in a 
+                     bustling city inspired by urban landscapes, the trio spends their 
+                     days creatively expressing themselves through graffiti on subway 
+                     cars and station walls. However, their artistic endeavors are not
+                      without risk. The stern Inspector and his loyal dog are always on
+                       the lookout, ready to chase the young artists away.
+                </p>
+            </div>
+        </div>
+    </div>
+<!-- Our History Ends-->
+
+<!-- The Legacy -->
+        <div class="legacy">
+            <div class="container">
+                <h1>The Legacy</h1>
+                <p>
+                    Since its release, Subway Surfers has not only achieved over a billion
+                     downloads but also maintained a loyal fan base through continuous updates
+                      and community engagement. The game’s success has inspired merchandise, 
+                      animated series, and even real-life events, cementing its place in pop culture.
+
+                    Subway Surfers is more than just a game; it’s a global phenomenon that continues to inspire
+                    creativity and adventure among its players. Whether you're running through the streets of Rio
+                    or dodging trains in New York, Subway Surfers offers endless fun and excitement.
+                </p>
+            </div>
+        </div>
+<!-- The Legacy ends -->
+
+
+
+
+   <!--  Javascrip Audio -->
+   <script>
+        var audio = document.getElementById('subway-audio');
+                var muteIcon = document.getElementById('mute-icon');
+                
+                function playAudio() {
+                    audio.play();
+                }
+                
+                function pauseAudio() {
+                    audio.pause();
+                }
+
+                function toggleMute() {
+                    if (audio.muted) {
+                        audio.muted = false;
+                        muteIcon.classList.remove('fa-volume-up');
+                        muteIcon.classList.add('fa-volume-mute');
+                    } else {
+                        audio.muted = true;
+                        muteIcon.classList.remove('fa-volume-mute');
+                        muteIcon.classList.add('fa-volume-up');
+                    }
+                }
+</script>
+<!-- Audio script -->
+</body>
+</html>

@@ -1,0 +1,294 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins' !important;
+
+}
+.topbar{
+    background-color: #152238;
+    padding: 10px;
+    color: #ffffff;
+}
+nav div div img{
+    height: 20px;
+    padding-right: 10px;
+    
+}
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    .topbar {
+      font-size: 8px;
+      width: 100%;
+    }
+    nav div div img{
+        height: 12px;
+        padding-right: 10px;
+        
+    }
+    .logo {
+      display: none;
+    }
+    .nav-menu a {
+      color: #000;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 6px;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+
+
+  }
+  /* Nav Menu */
+  .navbar {
+    /* display: flex; */
+    align-items: center;
+    padding: 0px; 
+  }
+  .active{
+    font-weight: 700;
+    color:#152238 ;
+    border-bottom: 3px solid #007BFF;
+  }
+  
+  .logo {
+    margin-right: auto;
+    padding-left: 50px;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    margin-left: auto; 
+  }
+  .nav-menu li {
+    margin-left: 30px; 
+  }
+  
+  .nav-menu a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    transition: background-color 0.8s;
+  }
+  
+  .nav-menu a:hover {
+    background-color: #575757;
+    color: #fff;
+  }
+  .mainmenu{
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+/* ___________________________________________________________ */
+ /*Landing section  */
+/* ____________________________________________________________ */
+
+ .welcome-hero {
+    position: relative;
+    background:url(/assets/landing.jpg)no-repeat;
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    height:750px;
+    z-index: 1;
+}
+.welcome-hero:before{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(65,73,89,.65);
+    z-index: -1;
+}
+.welcome-hero-txt { padding-top: 155px;}
+
+.welcome-hero-txt h2 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 1.4;
+}
+.welcome-hero-txt p {
+    font-size: 18px;
+    color: #fcfcfc;
+    margin-top: 25px;
+}
+
+.welcome-hero-serch-box{margin-top: 78px;display: flex;}
+.welcome-hero-form {
+    display: flex;
+    background: #fff;
+    height: 70px;
+    border-radius: 3px;
+    width: 85%;
+}
+.single-welcome-hero-form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    padding: 0 30px;
+}
+.single-welcome-hero-form:first-child{border-right: 1px solid #edeff1;}
+.single-welcome-hero-form input {
+    margin-left: 10px;
+    height: 70px;
+    width: 300px;
+    border: 0;
+    background: transparent;
+}
+.single-welcome-hero-form input[type="text"]{
+    font-size: 14px;
+    color: #859098;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.welcome-hero-form-icon {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #252d32;
+}
+.welcome-hero-btn {
+    display:  flex;
+    justify-content:  center;
+    align-items:  center;
+    font-size:  14px;
+    color:  #fff;
+    width:  170px;
+    height:  70px;
+    background:  #ff545a;
+    text-transform:  capitalize;
+    margin-left:  30px;
+    border-radius: 3px;
+    -webkit-transition: 0.3s linear; 
+    -moz-transition: 0.3s linear; 
+    -ms-transition: 0.3s linear; 
+    -o-transition: 0.3s linear; 
+    transition: 0.3s linear;
+}
+.welcome-hero-btn:hover{/*background: #fd4043;*/background: #f43032;}
+
+.welcome-hero-btn svg {
+    width:  14px;
+    height:  auto;
+    margin-left:  12px;
+}
+
+/* ______________________________________________________
+About section
+______________________________________________________ */
+.aboutimg{
+    background-image: url(/assets/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+
+}
+.abouttxt{
+    background-color: #427FB7;
+    color: #fff;
+    
+}
+.aboutbody{
+    margin-top: 150px;
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+}
+.aboutbody h5{
+    font-weight: 200;
+}
+.aboutbody h3{
+    font-weight: 600;
+    padding: 10px;
+    text-transform: capitalize;
+
+}
+@media screen and (max-width: 768px) {
+    .aboutbody{
+        margin-top: 50px;
+        margin-left: 20px;
+        padding-top: 5px;
+        padding-left: 5px;
+        margin-bottom: 60px;
+        margin-right: 50px;
+    }
+    .aboutbody h5{
+        font-weight: 200;
+        font-size: 15px;
+    }
+    .aboutbody h3{
+        font-weight: 600;
+        padding: 10px;
+        font-size: 18px;
+        text-transform: capitalize;
+    
+    }
+    .aboutbody p{
+        font-size: 12px;
+    }
+}
+
+/* ----------------------------------------------------
+Audio section
+---------------------------------------------------- */
+.audio-section{
+    background-image: url(/assets/tokyo.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    align-items: center;
+}
+.audio-holder{
+    text-align: center;
+    color: #fff;
+
+}
+
+
+/* -------------------------------------------------------------
+Background Story
+------------------------------------------------------------- */
+.history{
+    color: #fff;
+    background-color: #1F8C15;
+}
+.history-image{
+    background-image: url(/assets/subway-surfers-tag-key-art.webp);
+}
+.history-content{
+    padding-top: 150px;
+    /* margin-left: 40px; */
+    /* padding-top: 5px; */
+    margin-left: 0px;
+    padding-bottom: 150px;
+    padding-right: 100px; 
+}
+
+
+/* -------------------------------------------------------------
+The Legacy
+------------------------------------------------------------- */
+.legacy{
+    background-image: url(/assets/sanfrancisco.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    align-items: center; 
+    color: #fff;
+    text-align: center;
+}

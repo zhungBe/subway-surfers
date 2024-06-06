@@ -1,0 +1,23 @@
+body{
+    background-attachment: fixed;
+    background-image: url(/assets/miami.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main-number{
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+hr{
+    color: #fff !important;
+    font-weight: 1px;
+    width: 100%;
+    text-align: center !important;
+    align-items: center;
+}
+.number{
+    font-size: 120px;
+    text-align: center;
+}
