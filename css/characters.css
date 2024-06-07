@@ -2,7 +2,7 @@
 Jake Bio
 ---------------------------------------- */
 .jake{
-    background-image: url(assets/sanfrancisco.jpg);
+    background-image: url(../assets/sanfrancisco.jpg);
     padding: 20px;
 }
 .jake-img img{
@@ -24,7 +24,7 @@ Jake Bio
 Tricky 
 ------------------------------------------ */
 .tricky{
-    background-image: url(assets/tokyo.jpg);
+    background-image: url(../assets/tokyo.jpg);
     padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ Tricky
 
 
 .fresh{
-    background-image: url(assets/sanfrancisco_2.jpg);
+    background-image: url(../assets/sanfrancisco_2.jpg);
     padding: 20px;
 }
 .fresh-img img{
@@ -80,7 +80,7 @@ Yutani
 Tricky 
 ------------------------------------------ */
 .yutani{
-    background-image: url(assets/miami.jpg);
+    background-image: url(../assets/miami.jpg);
     padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
