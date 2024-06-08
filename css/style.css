@@ -98,7 +98,7 @@ nav div div img{
     background-size:cover;
     text-align: center;
     height:750px;
-    background-image: url(./assets/landing.jpg);
+    background-image: url(../assets/landing.jpg);
     z-index: 1;
 }
 .welcome-hero:before{
@@ -193,7 +193,7 @@ nav div div img{
 About section
 ______________________________________________________ */
 .aboutimg{
-    background-image: url(./assets/about.jpg);
+    background-image: url(../assets/about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
        
@@ -250,7 +250,7 @@ ______________________________________________________ */
 Audio section
 ---------------------------------------------------- */
 .audio-section{
-    background-image: url(./assets/tokyo.jpg);
+    background-image: url(../assets/tokyo.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
     align-items: center;
@@ -270,7 +270,7 @@ Background Story
     background-color: #1F8C15;
 }
 .history-image{
-    background-image: url(./assets/subway-surfers-tag-key-art.webp);
+    background-image: url(../assets/subway-surfers-tag-key-art.webp);
 }
 .history-content{
     padding-top: 150px;
@@ -286,7 +286,7 @@ Background Story
 The Legacy
 ------------------------------------------------------------- */
 .legacy{
-    background-image: url(./assets/sanfrancisco.jpg);
+    background-image: url(../assets/sanfrancisco.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
     align-items: center; 
