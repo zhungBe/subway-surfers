@@ -194,8 +194,9 @@ About section
 ______________________________________________________ */
 .aboutimg{
     background-image: url(../assets/about.jpg);
+    background-size: cover; 
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
        
 
 }
@@ -254,6 +255,9 @@ Audio section
     padding-top: 200px;
     padding-bottom: 200px;
     align-items: center;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .audio-holder{
     text-align: center;
@@ -274,11 +278,12 @@ Background Story
 }
 .history-content{
     padding-top: 150px;
-    /* margin-left: 40px; */
-    /* padding-top: 5px; */
     margin-left: 0px;
     padding-bottom: 150px;
     padding-right: 100px; 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -292,4 +297,8 @@ The Legacy
     align-items: center; 
     color: #fff;
     text-align: center;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
